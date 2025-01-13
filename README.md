@@ -27,45 +27,52 @@ pip install pillow requests opencv-python webdriver_manager flask flask_cors vis
 
 ### Getting Started
 
-# 1. Clone the repository:
+## 1. Clone the repository:
 
 Clone this repository to your local machine:
 
-git clone https://github.com/JigyasPritam/fashion-extension.git
+git clone https://github.com/JigyasPritam/fashion-extension.git <br>
 cd fashion-extension
 
-# 2. Backend Setup
+## 2. Backend Setup
 
 Go to the backend folder and install the required Python packages using the following command:
 
 pip install -r requirements.txt
-
+<br>
 Start the Flask backend server:
 
-cd backend
+cd backend <br>
 python app.py
 
 The server will start on http://localhost:5000.
 
 ### Files and Folders
 
-# 1. Frontend:
+## 1. Frontend:
 
 popup.html: The HTML for the extension’s popup.
+
 popup.css: The CSS for styling the popup.
+
 popup.js: JavaScript to handle the image upload and search functionality.
+
 background.js: The background script that interacts with the browser.
 
-# 2. Backend:
+## 2. Backend:
 
 app.py: The Flask application that handles incoming requests, processes images, and returns search results.
+
 product_search.py: Contains the logic for searching and retrieving similar products using image recognition techniques.
+
 requirements.txt: Lists the Python dependencies for the backend.
 
 ## Error Handling
 
 CORS Errors: Ensure the Flask server is set up to handle cross-origin requests from the extension.
+
 Image Processing Errors: Verify that the image format is valid and meets the size requirements.
+
 Search Failures: Ensure the Google Cloud Vision API and other external services are available.
 
 ## Future Improvements
