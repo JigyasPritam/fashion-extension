@@ -38,8 +38,7 @@ cd fashion-extension
 
 Go to the backend folder and install the required Python packages using the following command:
 
-pip install -r requirements.txt
-<br>
+pip install -r requirements.txt<p>
 Start the Flask backend server:
 
 cd backend <br>
